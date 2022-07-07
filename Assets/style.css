@@ -1,0 +1,19 @@
+/* header + div, .container-fluid, .card{
+    display: none;
+} */
+
+ main{
+    display:none;
+} 
+.card{
+    padding: 0%;
+}
+.display-4 , .lead, .my-4 + p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centerP{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/Assets/style.css">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Weather API</title>
+  </head>
+<body>
+<header>
+  <div class="jumbotron">
+    <h1 class="display-4">Weather-Bot</h1>
+    <p class="lead">Would you like to check the weather any where in the world? Weather-Bot can do that! Type in any City and see for yourself!</p>
+    <hr class="my-4">
+    <div class="centerP"><input class="searchInput"></input></div>
+    <br>
+   <div class="centerP"><a class="btn btn-primary btn-lg" href="#" role="button">Check that weather!</a></div>
+  </div>
+</header>
+
+
+
+<main id="showWeather">
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 28rem;">
+          <img height="250px" class="iconOne" src="" alt="weather-icon">
+          <div class="card-body">
+            <h5 class="card-title cityOne">TODAY</h5>
+            <p class="card-text cityTemp"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item clouds"></li>
+            <li class="list-group-item humidity"></li>
+            <li class="list-group-item windSpeed"></li>
+            <li class="list-group-item uvIndex"></li>
+           
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 28rem;">
+          <img height="250px" src="" class="card-img-top iconTwo" alt="weather-icon">
+          <div class="card-body">
+            <h5 class="card-title cityTwo">Tomorrow</h5>
+            <p class="card-text cityTempTwo"></p>
+          </div>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item cloudsTwo"></li>
+            <li class="list-group-item humidityTwo"></li>
+            <li class="list-group-item windSpeedTwo"></li>
+            <li class="list-group-item uvIndexTwo"></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img height="225px" src="" class="card-img-top iconThree" alt="weather-icon">
+          <div class="card-body">
+            <h5 class="card-title dayThree"></h5>
+            <p class="card-text cityTempThree"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item cloudsThree"></li>
+            <li class="list-group-item humidityThree"></li>
+            <li class="list-group-item windSpeedThree"></li>
+            <li class="list-group-item uvIndexThree"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img height="225px" src="" class="card-img-top iconFour" alt="weather-icon">
+          <div class="card-body">
+            <h5 class="card-title dayFour"></h5>
+            <p class="card-text cityTempFour"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item cloudsFour"></li>
+            <li class="list-group-item humidityFour"></li>
+            <li class="list-group-item windSpeedFour"></li>
+            <li class="list-group-item uvIndexFour"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img height="225px" src="" class="card-img-top iconFive" alt="weather-icon">
+          <div class="card-body">
+            <h5 class="card-title dayFive"></h5>
+            <p class="card-text cityTempFive"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item cloudsFive"></li>
+            <li class="list-group-item humidityFive"></li>
+            <li class="list-group-item windSpeedFive"></li>
+            <li class="list-group-item uvIndexFive"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</main>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="/Assets/script.js"></script>
+    <script src="./Assets/script.js"></script>
+ 
+    
+</html>
