@@ -15,7 +15,7 @@ var searchHandle = function (event) {
 //GEO LOCATION API 
 function fetchLocation(search) {
   fetch(
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
       search +
       "&limit=&appid=fa5d675db8ac806ab936d2ccd4eb0ef2"
   )
@@ -32,7 +32,7 @@ function fetchLocation(search) {
 //5 DAY API
 function fetchWeather(lat, lon) {
   fetch(
-    "http://api.openweathermap.org/data/3.0/onecall?lat=" +
+    "https://api.openweathermap.org/data/3.0/onecall?lat=" +
       lat +
       "&lon=" +
       lon +
