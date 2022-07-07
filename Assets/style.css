@@ -3,9 +3,11 @@
 } */
 
  main{
+    
     display:none;
 } 
 .card{
+    background-color: grey;
     padding: 0%;
 }
 .display-4 , .lead, .my-4 + p{
